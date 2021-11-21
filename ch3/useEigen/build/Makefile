@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/youfa/slambook2/ch3/useEigen
+CMAKE_SOURCE_DIR = /home/youfa/slambook/ch3/useEigen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/youfa/slambook2/ch3/useEigen/build
+CMAKE_BINARY_DIR = /home/youfa/slambook/ch3/useEigen/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/youfa/slambook2/ch3/useEigen/build/CMakeFiles /home/youfa/slambook2/ch3/useEigen/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/youfa/slambook/ch3/useEigen/build/CMakeFiles /home/youfa/slambook/ch3/useEigen/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/youfa/slambook2/ch3/useEigen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/youfa/slambook/ch3/useEigen/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -196,6 +196,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/useEigen.dir/build.make CMakeFiles/useEigen.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+plotTrajectory.o: plotTrajectory.cpp.o
+
+.PHONY : plotTrajectory.o
+
+# target to build an object file
+plotTrajectory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/useEigen.dir/build.make CMakeFiles/useEigen.dir/plotTrajectory.cpp.o
+.PHONY : plotTrajectory.cpp.o
+
+plotTrajectory.i: plotTrajectory.cpp.i
+
+.PHONY : plotTrajectory.i
+
+# target to preprocess a source file
+plotTrajectory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/useEigen.dir/build.make CMakeFiles/useEigen.dir/plotTrajectory.cpp.i
+.PHONY : plotTrajectory.cpp.i
+
+plotTrajectory.s: plotTrajectory.cpp.s
+
+.PHONY : plotTrajectory.s
+
+# target to generate assembly for a file
+plotTrajectory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/useEigen.dir/build.make CMakeFiles/useEigen.dir/plotTrajectory.cpp.s
+.PHONY : plotTrajectory.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,6 +238,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... plotTrajectory.o"
+	@echo "... plotTrajectory.i"
+	@echo "... plotTrajectory.s"
 .PHONY : help
 
 

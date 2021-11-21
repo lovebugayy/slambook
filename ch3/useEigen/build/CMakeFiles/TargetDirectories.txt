@@ -1,3 +1,3 @@
-/home/youfa/slambook2/ch3/useEigen/build/CMakeFiles/rebuild_cache.dir
-/home/youfa/slambook2/ch3/useEigen/build/CMakeFiles/edit_cache.dir
-/home/youfa/slambook2/ch3/useEigen/build/CMakeFiles/useEigen.dir
+/home/youfa/slambook/ch3/useEigen/build/CMakeFiles/rebuild_cache.dir
+/home/youfa/slambook/ch3/useEigen/build/CMakeFiles/edit_cache.dir
+/home/youfa/slambook/ch3/useEigen/build/CMakeFiles/useEigen.dir

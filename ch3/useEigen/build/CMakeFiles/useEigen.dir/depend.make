@@ -6,4 +6,8 @@ CMakeFiles/useEigen.dir/coordinateTransform.cpp.o: ../coordinateTransform.h
 
 CMakeFiles/useEigen.dir/main.cpp.o: ../coordinateTransform.h
 CMakeFiles/useEigen.dir/main.cpp.o: ../main.cpp
+CMakeFiles/useEigen.dir/main.cpp.o: ../plotTrajectory.h
+
+CMakeFiles/useEigen.dir/plotTrajectory.cpp.o: ../plotTrajectory.cpp
+CMakeFiles/useEigen.dir/plotTrajectory.cpp.o: ../plotTrajectory.h
 

@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/youfa/slambook2/ch3/useEigen
+CMAKE_SOURCE_DIR = /home/youfa/slambook/ch3/useEigen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/youfa/slambook2/ch3/useEigen/build
+CMAKE_BINARY_DIR = /home/youfa/slambook/ch3/useEigen/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/useEigen.dir/depend.make
@@ -78,43 +78,77 @@ include CMakeFiles/useEigen.dir/flags.make
 
 CMakeFiles/useEigen.dir/main.cpp.o: CMakeFiles/useEigen.dir/flags.make
 CMakeFiles/useEigen.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youfa/slambook2/ch3/useEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/useEigen.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/useEigen.dir/main.cpp.o -c /home/youfa/slambook2/ch3/useEigen/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youfa/slambook/ch3/useEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/useEigen.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/useEigen.dir/main.cpp.o -c /home/youfa/slambook/ch3/useEigen/main.cpp
 
 CMakeFiles/useEigen.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/useEigen.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youfa/slambook2/ch3/useEigen/main.cpp > CMakeFiles/useEigen.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youfa/slambook/ch3/useEigen/main.cpp > CMakeFiles/useEigen.dir/main.cpp.i
 
 CMakeFiles/useEigen.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/useEigen.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youfa/slambook2/ch3/useEigen/main.cpp -o CMakeFiles/useEigen.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youfa/slambook/ch3/useEigen/main.cpp -o CMakeFiles/useEigen.dir/main.cpp.s
 
 CMakeFiles/useEigen.dir/coordinateTransform.cpp.o: CMakeFiles/useEigen.dir/flags.make
 CMakeFiles/useEigen.dir/coordinateTransform.cpp.o: ../coordinateTransform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youfa/slambook2/ch3/useEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/useEigen.dir/coordinateTransform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/useEigen.dir/coordinateTransform.cpp.o -c /home/youfa/slambook2/ch3/useEigen/coordinateTransform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youfa/slambook/ch3/useEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/useEigen.dir/coordinateTransform.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/useEigen.dir/coordinateTransform.cpp.o -c /home/youfa/slambook/ch3/useEigen/coordinateTransform.cpp
 
 CMakeFiles/useEigen.dir/coordinateTransform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/useEigen.dir/coordinateTransform.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youfa/slambook2/ch3/useEigen/coordinateTransform.cpp > CMakeFiles/useEigen.dir/coordinateTransform.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youfa/slambook/ch3/useEigen/coordinateTransform.cpp > CMakeFiles/useEigen.dir/coordinateTransform.cpp.i
 
 CMakeFiles/useEigen.dir/coordinateTransform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/useEigen.dir/coordinateTransform.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youfa/slambook2/ch3/useEigen/coordinateTransform.cpp -o CMakeFiles/useEigen.dir/coordinateTransform.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youfa/slambook/ch3/useEigen/coordinateTransform.cpp -o CMakeFiles/useEigen.dir/coordinateTransform.cpp.s
+
+CMakeFiles/useEigen.dir/plotTrajectory.cpp.o: CMakeFiles/useEigen.dir/flags.make
+CMakeFiles/useEigen.dir/plotTrajectory.cpp.o: ../plotTrajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youfa/slambook/ch3/useEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/useEigen.dir/plotTrajectory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/useEigen.dir/plotTrajectory.cpp.o -c /home/youfa/slambook/ch3/useEigen/plotTrajectory.cpp
+
+CMakeFiles/useEigen.dir/plotTrajectory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/useEigen.dir/plotTrajectory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youfa/slambook/ch3/useEigen/plotTrajectory.cpp > CMakeFiles/useEigen.dir/plotTrajectory.cpp.i
+
+CMakeFiles/useEigen.dir/plotTrajectory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/useEigen.dir/plotTrajectory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youfa/slambook/ch3/useEigen/plotTrajectory.cpp -o CMakeFiles/useEigen.dir/plotTrajectory.cpp.s
 
 # Object files for target useEigen
 useEigen_OBJECTS = \
 "CMakeFiles/useEigen.dir/main.cpp.o" \
-"CMakeFiles/useEigen.dir/coordinateTransform.cpp.o"
+"CMakeFiles/useEigen.dir/coordinateTransform.cpp.o" \
+"CMakeFiles/useEigen.dir/plotTrajectory.cpp.o"
 
 # External object files for target useEigen
 useEigen_EXTERNAL_OBJECTS =
 
 ../bin/useEigen: CMakeFiles/useEigen.dir/main.cpp.o
 ../bin/useEigen: CMakeFiles/useEigen.dir/coordinateTransform.cpp.o
+../bin/useEigen: CMakeFiles/useEigen.dir/plotTrajectory.cpp.o
 ../bin/useEigen: CMakeFiles/useEigen.dir/build.make
+../bin/useEigen: /usr/local/lib/libpango_glgeometry.so
+../bin/useEigen: /usr/local/lib/libpango_plot.so
+../bin/useEigen: /usr/local/lib/libpango_python.so
+../bin/useEigen: /usr/local/lib/libpango_scene.so
+../bin/useEigen: /usr/local/lib/libpango_tools.so
+../bin/useEigen: /usr/local/lib/libpango_video.so
+../bin/useEigen: /usr/local/lib/libpango_geometry.so
+../bin/useEigen: /usr/local/lib/libtinyobj.so
+../bin/useEigen: /usr/local/lib/libpango_display.so
+../bin/useEigen: /usr/local/lib/libpango_vars.so
+../bin/useEigen: /usr/local/lib/libpango_windowing.so
+../bin/useEigen: /usr/local/lib/libpango_opengl.so
+../bin/useEigen: /usr/lib/x86_64-linux-gnu/libGLEW.so
+../bin/useEigen: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+../bin/useEigen: /usr/lib/x86_64-linux-gnu/libGLX.so
+../bin/useEigen: /usr/lib/x86_64-linux-gnu/libGLU.so
+../bin/useEigen: /usr/local/lib/libpango_image.so
+../bin/useEigen: /usr/local/lib/libpango_packetstream.so
+../bin/useEigen: /usr/local/lib/libpango_core.so
 ../bin/useEigen: CMakeFiles/useEigen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/youfa/slambook2/ch3/useEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/useEigen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/youfa/slambook/ch3/useEigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/useEigen"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/useEigen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +161,6 @@ CMakeFiles/useEigen.dir/clean:
 .PHONY : CMakeFiles/useEigen.dir/clean
 
 CMakeFiles/useEigen.dir/depend:
-	cd /home/youfa/slambook2/ch3/useEigen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/youfa/slambook2/ch3/useEigen /home/youfa/slambook2/ch3/useEigen /home/youfa/slambook2/ch3/useEigen/build /home/youfa/slambook2/ch3/useEigen/build /home/youfa/slambook2/ch3/useEigen/build/CMakeFiles/useEigen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/youfa/slambook/ch3/useEigen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/youfa/slambook/ch3/useEigen /home/youfa/slambook/ch3/useEigen /home/youfa/slambook/ch3/useEigen/build /home/youfa/slambook/ch3/useEigen/build /home/youfa/slambook/ch3/useEigen/build/CMakeFiles/useEigen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/useEigen.dir/depend
 

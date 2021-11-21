@@ -6,19 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/youfa/slambook2/ch3/useEigen/coordinateTransform.cpp
-coordinateTransform.h
-/home/youfa/slambook2/ch3/useEigen/coordinateTransform.h
+/home/youfa/slambook/ch3/useEigen/plotTrajectory.cpp
+plotTrajectory.h
+/home/youfa/slambook/ch3/useEigen/plotTrajectory.h
 
-/home/youfa/slambook2/ch3/useEigen/coordinateTransform.h
+/home/youfa/slambook/ch3/useEigen/plotTrajectory.h
 iostream
 -
-cmath
--
-algorithm
+pangolin/pangolin.h
 -
 eigen3/Eigen/Core
 -
-eigen3/Eigen/Geometry
+unistd.h
 -
 

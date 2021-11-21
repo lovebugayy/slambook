@@ -3,9 +3,10 @@
 //
 
 #include "coordinateTransform.h"
+#include "plotTrajectory.h"
 
 int main(int argc,char** argv)
 {
-    calculatePositioninR2Coordinate();
+    test();
     return 0;
 }

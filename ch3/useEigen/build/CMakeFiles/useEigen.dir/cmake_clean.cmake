@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "../bin/useEigen.pdb"
   "CMakeFiles/useEigen.dir/coordinateTransform.cpp.o"
   "CMakeFiles/useEigen.dir/main.cpp.o"
+  "CMakeFiles/useEigen.dir/plotTrajectory.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
