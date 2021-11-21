@@ -1,0 +1,5 @@
+/home/youfa/slambook2/ch2/build/CMakeFiles/rebuild_cache.dir
+/home/youfa/slambook2/ch2/build/CMakeFiles/useHello.dir
+/home/youfa/slambook2/ch2/build/CMakeFiles/edit_cache.dir
+/home/youfa/slambook2/ch2/build/CMakeFiles/hello_shared.dir
+/home/youfa/slambook2/ch2/build/CMakeFiles/hello.dir
